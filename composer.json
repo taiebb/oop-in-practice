@@ -1,0 +1,22 @@
+{
+    "name": "taieb.baccouche/app",
+    "description": "PHP MVC project",
+    "authors": [
+        {
+            "name": "Taieb Baccouche",
+            "email": "baccouch.taieb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework"
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "^5.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0",
+        "phpunit/phpunit": "^9.1"
+    }
+}
